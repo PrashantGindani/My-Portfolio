@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import ContactMe from './components/ContactMe'
+import Intro from './components/Intro'
 import Header from './components/Header';
 import Hey from './components/Hey';
 import About from './components/About';
@@ -11,6 +12,7 @@ function App() {
     <div className="App" style={{backgroundColor:'black'}}>
       <Header/>
       <div>
+        <Intro/>
       <br/>
       <Hey/>
       <br/>
@@ -25,66 +27,7 @@ function App() {
       <br/>
       <br/>
       <br/>
-      <ContactMe/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+        <ContactMe/>
       </div>
     </div>
   );
